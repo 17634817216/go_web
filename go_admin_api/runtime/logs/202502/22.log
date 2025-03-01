@@ -1,0 +1,26 @@
+[2025-02-22 17:24:46.754]	dev.info	启动端口：8000
+[2025-02-22 17:25:02.554]	dev.info	关闭服务器 ...
+[2025-02-22 17:25:02.555]	dev.info	服务器正在退出 ...
+[2025-02-22 17:36:06.861]	dev.info	启动端口：8000
+[2025-02-22 17:36:09.536]	dev.info	关闭服务器 ...
+[2025-02-22 17:36:09.537]	dev.info	服务器正在退出 ...
+[2025-02-22 19:05:33.516]	dev.info	2025/02/22 19:05:33 MYSQL 数据库连接成功 %v root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local
+
+[2025-02-22 19:06:38.986]	dev.info	2025/02/22 19:06:38 MYSQL 数据库连接成功 %v root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local
+
+[2025-02-22 19:07:53.701]	dev.info	2025/02/22 19:07:53 MYSQL 数据库连接成功 %v root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local
+
+[2025-02-22 19:09:21.765]	dev.info	2025/02/22 19:09:21 PostgresDB 数据库连接成功 %v host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai
+
+[2025-02-22 19:09:37.140]	dev.info	2025/02/22 19:09:37 MYSQL 数据库连接成功 %v root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local
+
+[2025-02-22 19:09:44.571]	dev.info	2025/02/22 19:09:44 MYSQL 数据库连接成功 %v root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local
+
+[2025-02-22 19:14:47.466]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-22 19:14:47.466]	dev.info	启动端口：8000
+[2025-02-22 19:14:56.514]	dev.info	关闭服务器 ...
+[2025-02-22 19:14:56.514]	dev.info	服务器正在退出 ...
+[2025-02-22 19:54:42.743]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-22 19:54:42.743]	dev.info	启动端口：8000
+[2025-02-22 20:31:10.819]	dev.info	关闭服务器 ...
+[2025-02-22 20:31:10.819]	dev.info	服务器正在退出 ...

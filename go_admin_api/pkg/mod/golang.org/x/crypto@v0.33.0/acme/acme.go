@@ -52,7 +52,7 @@ const (
 	//
 	// Package users must ensure their servers can negotiate the ACME ALPN in
 	// order for tls-alpn-01 challenge verifications to succeed.
-	// See the crypto/tls package's Config.NextProtos field.
+	// See the crypto/tls package's config.NextProtos field.
 	ALPNProto = "acme-tls/1"
 )
 

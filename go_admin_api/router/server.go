@@ -4,6 +4,8 @@ import (
 	"context"
 	"fmt"
 	"go_admin_api/global"
+	"go_admin_api/internal/caches"
+	"go_admin_api/internal/database"
 	"net/http"
 	"os"
 	"os/signal"
@@ -12,6 +14,8 @@ import (
 )
 
 func RunServer() {
+	database.InitDatabase()
+	caches.InitNewCache()
 	//加载路由
 	r := InitRouter()
 	srv := &http.Server{

@@ -91,7 +91,7 @@ func (s Server) serveWebSocket(w http.ResponseWriter, req *http.Request) {
 
 // Handler is a simple interface to a WebSocket browser client.
 // It checks if Origin header is valid URL by default.
-// You might want to verify websocket.Conn.Config().Origin in the func.
+// You might want to verify websocket.Conn.config().Origin in the func.
 // If you use Server instead of Handler, you could call websocket.Origin and
 // check the origin in your Handshake func. So, if you want to accept
 // non-browser clients, which do not send an Origin header, set a

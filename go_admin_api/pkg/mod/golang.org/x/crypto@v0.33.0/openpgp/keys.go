@@ -550,7 +550,7 @@ func NewEntity(name, comment, email string, config *packet.Config) (*Entity, err
 		return nil, err
 	}
 
-	// If the user passes in a DefaultHash via packet.Config,
+	// If the user passes in a DefaultHash via packet.config,
 	// set the PreferredHash for the SelfSignature.
 	if config != nil && config.DefaultHash != 0 {
 		e.Identities[uid.Id].SelfSignature.PreferredHash = []uint8{hashToHashId(config.DefaultHash)}

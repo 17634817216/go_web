@@ -120,7 +120,7 @@ func newTestServer(t testing.TB, handler http.HandlerFunc, opts ...interface{}) 
 	}
 	ConfigureServer(ts.Config, h2server)
 
-	// ConfigureServer populates ts.Config.TLSConfig.
+	// ConfigureServer populates ts.config.TLSConfig.
 	// Copy it to ts.TLS as well.
 	ts.TLS = ts.Config.TLSConfig
 

@@ -37,7 +37,7 @@ func (c *Conn) startTLS(now time.Time, initialConnID []byte, peerHostname string
 	c.tls.SetTransportParameters(marshalTransportParameters(params))
 	// TODO: We don't need or want a context for cancelation here,
 	// but users can use a context to plumb values through to hooks defined
-	// in the tls.Config. Pass through a context.
+	// in the tls.config. Pass through a context.
 	if err := c.tls.Start(context.TODO()); err != nil {
 		return err
 	}

@@ -39,7 +39,7 @@ func TestOpenLanManServer(t *testing.T) {
 
 	_, err = s.Config()
 	if err != nil {
-		t.Fatalf("Config failed: %s", err)
+		t.Fatalf("config failed: %s", err)
 	}
 }
 
@@ -81,7 +81,7 @@ func depString(d []string) string {
 func testConfig(t *testing.T, s *mgr.Service, should mgr.Config) mgr.Config {
 	is, err := s.Config()
 	if err != nil {
-		t.Fatalf("Config failed: %s", err)
+		t.Fatalf("config failed: %s", err)
 	}
 	if should.DelayedAutoStart != is.DelayedAutoStart {
 		t.Fatalf("config mismatch: DelayedAutoStart is %v, but should have %v", is.DelayedAutoStart, should.DelayedAutoStart)

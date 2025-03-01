@@ -347,7 +347,7 @@ func (e *Endpoint) handleUnknownDestinationDatagram(m *datagram) {
 
 func (e *Endpoint) maybeSendStatelessReset(b []byte, peerAddr netip.AddrPort) {
 	if !e.resetGen.canReset {
-		// Config.StatelessResetKey isn't set, so we don't send stateless resets.
+		// config.StatelessResetKey isn't set, so we don't send stateless resets.
 		return
 	}
 	// The smallest possible valid packet a peer can send us is:

@@ -234,7 +234,7 @@ func (m *Manager) TLSConfig() *tls.Config {
 	}
 }
 
-// GetCertificate implements the tls.Config.GetCertificate hook.
+// GetCertificate implements the tls.config.GetCertificate hook.
 // It provides a TLS certificate for hello.ServerName host, including answering
 // tls-alpn-01 challenges.
 // All other fields of hello are ignored.

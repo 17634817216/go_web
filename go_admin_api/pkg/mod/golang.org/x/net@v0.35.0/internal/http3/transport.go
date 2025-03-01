@@ -26,11 +26,11 @@ type Transport struct {
 	// If unset, it is initialized by the first call to Dial.
 	Endpoint *quic.Endpoint
 
-	// Config is the QUIC configuration used for client connections.
-	// The Config may be nil.
+	// config is the QUIC configuration used for client connections.
+	// The config may be nil.
 	//
-	// Dial may clone and modify the Config.
-	// The Config must not be modified after calling Dial.
+	// Dial may clone and modify the config.
+	// The config must not be modified after calling Dial.
 	Config *quic.Config
 
 	initOnce sync.Once

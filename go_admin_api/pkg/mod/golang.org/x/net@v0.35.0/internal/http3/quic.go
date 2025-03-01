@@ -17,7 +17,7 @@ func initConfig(config *quic.Config) *quic.Config {
 		config = &quic.Config{}
 	}
 
-	// maybeCloneTLSConfig clones the user-provided tls.Config (but only once)
+	// maybeCloneTLSConfig clones the user-provided tls.config (but only once)
 	// prior to us modifying it.
 	needCloneTLSConfig := true
 	maybeCloneTLSConfig := func() *tls.Config {

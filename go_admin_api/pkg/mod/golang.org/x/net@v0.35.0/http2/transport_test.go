@@ -2209,7 +2209,7 @@ func TestTransportNewTLSConfig(t *testing.T) {
 	}
 	for i, tt := range tests {
 		// Ignore the session ticket keys part, which ends up populating
-		// unexported fields in the Config:
+		// unexported fields in the config:
 		if tt.conf != nil {
 			tt.conf.SessionTicketsDisabled = true
 		}

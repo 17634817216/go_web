@@ -120,7 +120,7 @@ var cipherModes = map[string]*cipherMode{
 
 	// CBC mode is insecure and so is not included in the default config.
 	// (See https://www.ieee-security.org/TC/SP2013/papers/4977a526.pdf). If absolutely
-	// needed, it's possible to specify a custom Config to enable it.
+	// needed, it's possible to specify a custom config to enable it.
 	// You should expect that an active attacker can recover plaintext if
 	// you do.
 	aes128cbcID: {16, aes.BlockSize, newAESCBCCipher},

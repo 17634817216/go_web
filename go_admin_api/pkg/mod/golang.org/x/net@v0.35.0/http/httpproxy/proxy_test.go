@@ -236,7 +236,7 @@ func testProxyForURL(t *testing.T, tt proxyForURLTest) {
 		t.Errorf("%v: got URL = %q, want %q", tt, url, tt.want)
 	}
 
-	// Check that changing the Config doesn't change the results
+	// Check that changing the config doesn't change the results
 	// of the functuon.
 	cfg = httpproxy.Config{}
 	url, err = proxyForURL(reqURL)

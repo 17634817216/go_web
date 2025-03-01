@@ -393,7 +393,7 @@ func TestConcurrentHandleContext(t *testing.T) {
 // 	l, _ := net.Listen("tcp", ":8033")
 // 	ts := httptest.Server{
 // 		Listener: l,
-// 		Config:   &http.Server{Handler: router},
+// 		config:   &http.Server{Handler: router},
 // 	}
 // 	ts.Start()
 // 	defer ts.Close()

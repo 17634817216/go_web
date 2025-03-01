@@ -77,7 +77,7 @@ type endpointHandler struct {
 // It uses the streamable JSON Text Sequences mapping (JSON-SEQ)
 // defined in draft-ietf-quic-qlog-main-schema-04, Section 6.2.
 //
-// A JSONHandler may be used as the handler for a quic.Config.QLogLogger.
+// A JSONHandler may be used as the handler for a quic.config.QLogLogger.
 // It is not a general-purpose slog handler,
 // and may not properly handle events from other sources.
 func NewJSONHandler(opts HandlerOptions) slog.Handler {

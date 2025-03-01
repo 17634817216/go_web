@@ -1,0 +1,218 @@
+[2025-02-26 20:09:56.807]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:09:56.819]	dev.info	启动端口：8000
+[2025-02-26 20:12:40.561]	dev.info	关闭服务器 ...
+[2025-02-26 20:12:40.562]	dev.info	服务器正在退出 ...
+[2025-02-26 20:12:42.906]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:12:42.907]	dev.info	启动端口：8000
+[2025-02-26 20:13:14.862]	dev.info	关闭服务器 ...
+[2025-02-26 20:13:14.862]	dev.info	服务器正在退出 ...
+[2025-02-26 20:13:17.415]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:13:17.418]	dev.info	启动端口：8000
+[2025-02-26 20:13:38.625]	dev.info	关闭服务器 ...
+[2025-02-26 20:13:38.626]	dev.info	服务器正在退出 ...
+[2025-02-26 20:13:40.304]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:13:40.306]	dev.info	启动端口：8000
+[2025-02-26 20:14:01.808]	dev.info	关闭服务器 ...
+[2025-02-26 20:14:01.808]	dev.info	服务器正在退出 ...
+[2025-02-26 20:14:04.126]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:14:04.127]	dev.info	启动端口：8000
+[2025-02-26 20:15:59.744]	dev.info	关闭服务器 ...
+[2025-02-26 20:15:59.744]	dev.info	服务器正在退出 ...
+[2025-02-26 20:16:02.101]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:16:02.103]	dev.info	启动端口：8000
+[2025-02-26 20:16:04.297]	dev.info	关闭服务器 ...
+[2025-02-26 20:16:04.297]	dev.info	服务器正在退出 ...
+[2025-02-26 20:16:05.217]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:16:05.218]	dev.info	启动端口：8000
+[2025-02-26 20:31:18.538]	dev.info	关闭服务器 ...
+[2025-02-26 20:31:18.538]	dev.info	服务器正在退出 ...
+[2025-02-26 20:31:21.036]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:31:21.039]	dev.info	启动端口：8000
+[2025-02-26 20:31:45.959]	dev.info	关闭服务器 ...
+[2025-02-26 20:31:45.959]	dev.info	服务器正在退出 ...
+[2025-02-26 20:31:48.301]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:31:48.302]	dev.info	启动端口：8000
+[2025-02-26 20:33:11.436]	dev.info	关闭服务器 ...
+[2025-02-26 20:33:11.436]	dev.info	服务器正在退出 ...
+[2025-02-26 20:33:15.530]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:33:15.531]	dev.info	启动端口：8000
+[2025-02-26 20:33:50.638]	dev.info	关闭服务器 ...
+[2025-02-26 20:33:50.638]	dev.info	服务器正在退出 ...
+[2025-02-26 20:33:53.409]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-26 20:33:53.411]	dev.info	启动端口：8000
+[2025-02-26 20:39:12.046]	dev.info	关闭服务器 ...
+[2025-02-26 20:39:12.046]	dev.info	服务器正在退出 ...
+[2025-02-26 20:39:13.891]	dev.info	PostgresDB 数据库连接实例错误: failed to connect to `host=localhost user=postgres database=mems_db`: failed to receive message (unknown message type: J)
+[2025-02-26 20:39:13.892]	dev.info	启动端口：8000
+[2025-02-26 20:39:45.180]	dev.info	关闭服务器 ...
+[2025-02-26 20:39:45.180]	dev.info	服务器正在退出 ...
+[2025-02-26 20:39:47.269]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 20:39:47.272]	dev.info	启动端口：8000
+[2025-02-26 20:44:29.037]	dev.info	2025/02/26 20:44:29 Received body: 
+{
+"permission_id":237,
+"name":"text",    
+"en_name":"text1", 
+"url":"text",  
+"pid": null,  
+"resource_type":"text",  
+"action_type":"text",  
+"icon":"text",  
+"open_in_new_tab":0,  
+"sort":1,   
+"description":"text",   
+"is_backstage":1}
+
+[2025-02-26 20:46:00.657]	dev.info	2025/02/26 20:46:00 Received body: {
+  "roles": {
+    "role_name": "sdas",
+    "is_backstage": 1,
+    "description": "管理员角色"
+  },
+  "permission_ids": [25, 26, 27]
+}
+
+[2025-02-26 20:46:00.658]	dev.info	2025/02/26 20:46:00 Request body after binding: {Roles:{RoleId:0 RoleName:sdas IsBackstage:1 Description:管理员角色} PermissionIds:[25 26 27]}
+
+[2025-02-26 20:50:42.327]	dev.info	2025/02/26 20:50:42 Received body: {
+  "roles": {
+    "role_name": "sdas",
+    "is_backstage": 1,
+    "description": "管理员角色"
+  },
+  "permission_ids": [25, 26, 27]
+}
+
+[2025-02-26 20:50:42.327]	dev.info	2025/02/26 20:50:42 Request body after binding: {Roles:{RoleId:0 RoleName:sdas IsBackstage:1 Description:管理员角色} PermissionIds:[25 26 27]}
+
+[2025-02-26 20:50:57.606]	dev.info	2025/02/26 20:50:57 Received body: {
+  "roles": {
+    "role_name": "sdasss",
+    "is_backstage": 1,
+    "description": "管理员角色"
+  },
+  "permission_ids": [25, 26, 27]
+}
+
+[2025-02-26 20:50:57.607]	dev.info	2025/02/26 20:50:57 Request body after binding: {Roles:{RoleId:0 RoleName:sdasss IsBackstage:1 Description:管理员角色} PermissionIds:[25 26 27]}
+
+[2025-02-26 20:52:07.700]	dev.info	2025/02/26 20:52:07 Received body: {
+  "roles": {
+    "role_name": "sdassss",
+    "is_backstage": 1,
+    "description": "管理员角色"
+  },
+  "permission_ids": [25]
+}
+
+[2025-02-26 20:52:07.702]	dev.info	2025/02/26 20:52:07 Request body after binding: {Roles:{RoleId:0 RoleName:sdassss IsBackstage:1 Description:管理员角色} PermissionIds:[25]}
+
+[2025-02-26 20:52:34.951]	dev.info	2025/02/26 20:52:34 Received body: {
+  "roles": {
+    "role_name": "sdassss",
+    "is_backstage": 0,
+    "description": "管理员角色"
+  },
+  "permission_ids": [25, 26]
+}
+
+[2025-02-26 20:52:56.234]	dev.info	2025/02/26 20:52:56 Received body: {
+  "roles": {
+    "role_name": "sdassss",
+    "is_backstage": 0,
+    "description": "管理员角色"
+  },
+  "permission_ids": [25, 26,27]
+}
+
+[2025-02-26 20:56:34.107]	dev.info	关闭服务器 ...
+[2025-02-26 20:56:34.108]	dev.info	服务器正在退出 ...
+[2025-02-26 20:56:36.707]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 20:56:36.708]	dev.info	启动端口：8000
+[2025-02-26 20:56:54.747]	dev.info	关闭服务器 ...
+[2025-02-26 20:56:54.748]	dev.info	服务器正在退出 ...
+[2025-02-26 20:56:57.183]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 20:56:57.184]	dev.info	启动端口：8000
+[2025-02-26 20:57:15.677]	dev.info	关闭服务器 ...
+[2025-02-26 20:57:15.677]	dev.info	服务器正在退出 ...
+[2025-02-26 20:57:17.461]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 20:57:17.462]	dev.info	启动端口：8000
+[2025-02-26 21:40:53.484]	dev.info	关闭服务器 ...
+[2025-02-26 21:40:53.485]	dev.info	服务器正在退出 ...
+[2025-02-26 21:40:56.584]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 21:40:56.586]	dev.info	启动端口：8000
+[2025-02-26 21:42:53.874]	dev.info	关闭服务器 ...
+[2025-02-26 21:42:53.874]	dev.info	服务器正在退出 ...
+[2025-02-26 21:42:56.236]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 21:42:56.238]	dev.info	启动端口：8000
+[2025-02-26 21:43:10.813]	dev.info	关闭服务器 ...
+[2025-02-26 21:43:10.813]	dev.info	服务器正在退出 ...
+[2025-02-26 21:43:13.125]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 21:43:13.127]	dev.info	启动端口：8000
+[2025-02-26 21:46:08.117]	dev.info	关闭服务器 ...
+[2025-02-26 21:46:08.117]	dev.info	服务器正在退出 ...
+[2025-02-26 21:46:10.722]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 21:46:10.724]	dev.info	启动端口：8000
+[2025-02-26 21:51:24.680]	dev.info	2025/02/26 21:51:24 Received body: 
+{
+"name":"text",    
+"parent_id": null,  
+"level":"text",  
+"sort":1,   
+"description":"text"
+}
+
+[2025-02-26 22:08:17.814]	dev.info	2025/02/26 22:08:17 Received body: 
+{
+"name":"text",    
+"parent_id": null,  
+"level":1,  
+"sort":1,   
+"description":"text"
+}
+
+[2025-02-26 22:08:27.572]	dev.info	2025/02/26 22:08:27 Received body: 
+{
+"name":"text",    
+"parent_id": ,  
+"level":1,  
+"sort":1,   
+"description":"text"
+}
+
+[2025-02-26 22:08:34.050]	dev.info	2025/02/26 22:08:34 Received body: 
+{
+"name":"text",    
+"parent_id": 0,  
+"level":1,  
+"sort":1,   
+"description":"text"
+}
+
+[2025-02-26 22:09:59.243]	dev.info	2025/02/26 22:09:59 Received body: 
+{
+"name":"text",    
+"parent_id": 0,  
+"level":1,  
+"sort":1,   
+"description":"text"
+}
+
+[2025-02-26 22:13:02.831]	dev.info	关闭服务器 ...
+[2025-02-26 22:13:02.831]	dev.info	服务器正在退出 ...
+[2025-02-26 22:13:04.740]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 22:13:04.741]	dev.info	启动端口：8000
+[2025-02-26 22:21:39.010]	dev.info	关闭服务器 ...
+[2025-02-26 22:21:39.010]	dev.info	服务器正在退出 ...
+[2025-02-26 22:21:41.709]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 22:21:41.711]	dev.info	启动端口：8000
+[2025-02-26 22:22:44.173]	dev.info	关闭服务器 ...
+[2025-02-26 22:22:44.173]	dev.info	服务器正在退出 ...
+[2025-02-26 22:22:45.227]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 22:22:45.229]	dev.info	启动端口：8000
+[2025-02-26 22:24:05.145]	dev.info	关闭服务器 ...
+[2025-02-26 22:24:05.145]	dev.info	服务器正在退出 ...
+[2025-02-26 22:24:07.617]	dev.info	PostgresDB 数据库连接成功 host=localhost user=postgres password=qq080808 dbname=mems_db port=5432 sslmode=disable TimeZone=Asia/Shanghai 
+[2025-02-26 22:24:07.618]	dev.info	启动端口：8000
+[2025-02-28 22:07:36.358]	dev.info	关闭服务器 ...
+[2025-02-28 22:07:36.359]	dev.info	服务器正在退出 ...

@@ -1,4 +1,4 @@
-package Config
+package config
 
 import (
 	"gopkg.in/ini.v1"
@@ -14,7 +14,7 @@ type DatabaseConfig struct {
 	DB_USER     string `ini:"DB_USER"`
 	DB_PASSWORD string `ini:"DB_PASSWORD"`
 	DB_HOST     string `ini:"DB_HOST"`
-	DB_PORT     string `ini:"DB_PORT"`
+	DB_PORT     int    `ini:"DB_PORT"`
 }
 
 // 定义应用程序配置结构体
@@ -38,6 +38,13 @@ type LogConfig struct {
 	COMPRESS    bool   `ini:"COMPRESS"`
 }
 
+type CacheConfig struct {
+	CACHE_TYPE     string `ini:"CACHE_TYPE"`
+	CACHE_HOST     string `ini:"CACHE_HOST"`
+	CACHE_PASSWPRD string `ini:"CACHE_PASSWPRD"`
+	CACHE_DB       int    `ini:"CACHE_DB"`
+}
+
 func Inconfig(ConfigPath string) {
 	cfg := ini.Empty()
 
@@ -47,11 +54,11 @@ func Inconfig(ConfigPath string) {
 		log.Fatalf("无法创建 DATABASE 部分: %v", err)
 	}
 	databaseSection.Key("DB_DRVICE").SetValue("mysql")
-	databaseSection.Key("DB_NAME").SetValue("tsdb")
-	databaseSection.Key("DB_USER").SetValue("dbuser_sjs")
-	databaseSection.Key("DB_PASSWORD").SetValue("zkfl_sjs")
-	databaseSection.Key("DB_HOST").SetValue("8.140.61.126")
-	databaseSection.Key("DB_PORT").SetValue("5432")
+	databaseSection.Key("DB_NAME").SetValue("mems_db")
+	databaseSection.Key("DB_USER").SetValue("root")
+	databaseSection.Key("DB_PASSWORD").SetValue("qq080808")
+	databaseSection.Key("DB_HOST").SetValue("localhost")
+	databaseSection.Key("DB_PORT").SetValue("3306")
 
 	// 添加 APP 部分
 	appSection, err := cfg.NewSection("APP")
@@ -63,6 +70,17 @@ func Inconfig(ConfigPath string) {
 	appSection.Key("CPUNUM").SetValue("3")
 	appSection.Key("RUNLOGTYPE").SetValue("debug")
 	appSection.Key("ENV").SetValue("dev")
+
+	// 添加 CACHE 缓存部分
+	CacheSection, err := cfg.NewSection("CACHE")
+	if err != nil {
+		log.Fatalf("无法创建 CACHE 部分: %v", err)
+	}
+	CacheSection.Key("CACHE_TYPE").SetValue("bigcache")
+	CacheSection.Key("CACHE_HOST").SetValue("localhost:6379")
+	CacheSection.Key("CACHE_PASSWPRD").SetValue("qq080808")
+	CacheSection.Key("CACHE_DB").SetValue("0")
+
 	logSection, err := cfg.NewSection("LOG")
 	if err != nil {
 		log.Fatalf("无法创建 LOG 部分: %v", err)
@@ -82,7 +100,7 @@ func Inconfig(ConfigPath string) {
 		log.Fatalf("无法保存配置到文件: %v", err)
 	}
 
-	log.Println("配置已成功写入到 Config/config.ini")
+	log.Println("配置已成功写入到 config/config.ini")
 }
 
 func OpenFile() string {
@@ -94,7 +112,7 @@ func OpenFile() string {
 	}
 
 	// 构建配置文件的完整路径
-	configFilePath := filepath.Join(cwd, "Config", "config.ini")
+	configFilePath := filepath.Join(cwd, "config", "config.ini")
 
 	// 检查配置文件是否存在
 	if _, err := os.Stat(configFilePath); os.IsNotExist(err) {

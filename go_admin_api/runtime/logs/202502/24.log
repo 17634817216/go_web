@@ -1,0 +1,324 @@
+[2025-02-24 20:46:15.125]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 20:46:15.127]	dev.info	启动端口：8000
+[2025-02-24 20:50:33.248]	dev.info	关闭服务器 ...
+[2025-02-24 20:50:33.249]	dev.info	服务器正在退出 ...
+[2025-02-24 20:51:50.109]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 20:51:50.110]	dev.info	启动端口：8000
+[2025-02-24 20:57:03.994]	dev.info	关闭服务器 ...
+[2025-02-24 20:57:03.994]	dev.info	服务器正在退出 ...
+[2025-02-24 20:57:07.218]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 20:57:07.229]	dev.info	启动端口：8000
+[2025-02-24 21:00:00.442]	dev.info	关闭服务器 ...
+[2025-02-24 21:00:00.443]	dev.info	服务器正在退出 ...
+[2025-02-24 21:00:02.497]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 21:00:02.499]	dev.info	启动端口：8000
+[2025-02-24 21:00:19.182]	dev.info	关闭服务器 ...
+[2025-02-24 21:00:19.183]	dev.info	服务器正在退出 ...
+[2025-02-24 21:00:20.825]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 21:00:20.827]	dev.info	启动端口：8000
+[2025-02-24 21:32:08.454]	dev.info	关闭服务器 ...
+[2025-02-24 21:32:08.454]	dev.info	服务器正在退出 ...
+[2025-02-24 21:32:11.702]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 21:32:11.703]	dev.info	启动端口：8000
+[2025-02-24 22:09:42.351]	dev.info	关闭服务器 ...
+[2025-02-24 22:09:42.352]	dev.info	服务器正在退出 ...
+[2025-02-24 22:09:45.896]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:09:45.898]	dev.info	启动端口：8000
+[2025-02-24 22:25:32.034]	dev.info	关闭服务器 ...
+[2025-02-24 22:25:32.034]	dev.info	服务器正在退出 ...
+[2025-02-24 22:29:04.782]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:29:04.784]	dev.info	启动端口：8000
+[2025-02-24 22:33:12.596]	dev.info	关闭服务器 ...
+[2025-02-24 22:33:12.596]	dev.info	服务器正在退出 ...
+[2025-02-24 22:33:15.361]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:33:15.363]	dev.info	启动端口：8000
+[2025-02-24 22:34:26.707]	dev.info	关闭服务器 ...
+[2025-02-24 22:34:26.707]	dev.info	服务器正在退出 ...
+[2025-02-24 22:34:30.180]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:34:30.182]	dev.info	启动端口：8000
+[2025-02-24 22:35:32.523]	dev.info	2025/02/24 22:35:32 Received body: 
+{
+"role_name":237,
+"is_backstage":"text",    
+"description":"text1", 
+"permission_ids":[25,26],  
+
+}
+
+[2025-02-24 22:35:40.085]	dev.info	2025/02/24 22:35:40 Received body: 
+{
+"role_name":237,
+"is_backstage":"text",    
+"description":"text1", 
+"permission_ids":[25,26]
+
+}
+
+[2025-02-24 22:36:13.084]	dev.info	2025/02/24 22:36:13 Received body: 
+{
+"role_name":'我不在哦',
+"is_backstage":"text",    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:36:41.883]	dev.info	2025/02/24 22:36:41 Received body: 
+{
+"role_name":'我不在哦',
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:37:08.860]	dev.info	2025/02/24 22:37:08 Received body: 
+{
+"role_name":'我不在哦',
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:37:47.544]	dev.info	2025/02/24 22:37:47 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:38:27.631]	dev.info	2025/02/24 22:38:27 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:38:44.718]	dev.info	关闭服务器 ...
+[2025-02-24 22:38:44.719]	dev.info	服务器正在退出 ...
+[2025-02-24 22:38:52.716]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:38:52.717]	dev.info	启动端口：8000
+[2025-02-24 22:38:54.599]	dev.info	2025/02/24 22:38:54 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:39:24.230]	dev.info	关闭服务器 ...
+[2025-02-24 22:39:24.230]	dev.info	服务器正在退出 ...
+[2025-02-24 22:39:27.004]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:39:27.005]	dev.info	启动端口：8000
+[2025-02-24 22:39:28.818]	dev.info	2025/02/24 22:39:28 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:39:46.917]	dev.info	关闭服务器 ...
+[2025-02-24 22:39:46.917]	dev.info	服务器正在退出 ...
+[2025-02-24 22:39:49.742]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:39:49.745]	dev.info	启动端口：8000
+[2025-02-24 22:39:51.769]	dev.info	2025/02/24 22:39:51 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:41:02.370]	dev.info	关闭服务器 ...
+[2025-02-24 22:41:02.371]	dev.info	服务器正在退出 ...
+[2025-02-24 22:41:05.141]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:41:05.143]	dev.info	启动端口：8000
+[2025-02-24 22:41:06.944]	dev.info	2025/02/24 22:41:06 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:41:06.944]	dev.info	2025/02/24 22:41:06 rolePermissions Error reading body: EOF
+
+[2025-02-24 22:41:28.331]	dev.info	关闭服务器 ...
+[2025-02-24 22:41:28.331]	dev.info	服务器正在退出 ...
+[2025-02-24 22:41:31.130]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:41:31.131]	dev.info	启动端口：8000
+[2025-02-24 22:41:33.054]	dev.info	2025/02/24 22:41:33 Received body: 
+{
+"role_name":"我不在哦",
+"is_backstage":0,    
+"description":"text1", 
+"permission_ids":[25,26]
+}
+
+[2025-02-24 22:41:33.054]	dev.info	2025/02/24 22:41:33 rolePermissions Error reading body: EOF
+
+[2025-02-24 22:41:40.209]	dev.info	关闭服务器 ...
+[2025-02-24 22:41:40.209]	dev.info	服务器正在退出 ...
+[2025-02-24 22:41:42.083]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:41:42.085]	dev.info	启动端口：8000
+[2025-02-24 22:41:56.200]	dev.info	2025/02/24 22:41:56 Received body: {
+    "role_name": "Admin",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [1, 2, 3]
+}
+
+[2025-02-24 22:41:56.200]	dev.info	2025/02/24 22:41:56 rolePermissions Error reading body: EOF
+
+[2025-02-24 22:42:29.082]	dev.info	2025/02/24 22:42:29 Received body: {
+    "role_name": "Admin",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [25, 26, 27]
+}
+
+
+
+[2025-02-24 22:42:29.082]	dev.info	2025/02/24 22:42:29 rolePermissions Error reading body: EOF
+
+[2025-02-24 22:43:06.733]	dev.info	2025/02/24 22:43:06 Received body: {
+    "role_name": "Admin",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [
+    {"permission_id": 25},
+    {"permission_id": 26},
+    {"permission_id": 27}
+  ]
+}
+
+
+
+[2025-02-24 22:43:06.733]	dev.info	2025/02/24 22:43:06 rolePermissions Error reading body: EOF
+
+[2025-02-24 22:45:26.111]	dev.info	关闭服务器 ...
+[2025-02-24 22:45:26.111]	dev.info	服务器正在退出 ...
+[2025-02-24 22:45:28.890]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:45:28.891]	dev.info	启动端口：8000
+[2025-02-24 22:45:31.618]	dev.info	2025/02/24 22:45:31 Received body: {
+    "role_name": "Admin",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [
+    {"permission_id": 25},
+    {"permission_id": 26},
+    {"permission_id": 27}
+  ]
+}
+
+
+
+[2025-02-24 22:45:31.619]	dev.info	2025/02/24 22:45:31 permission_ids Error reading body: EOF
+
+[2025-02-24 22:46:26.279]	dev.info	关闭服务器 ...
+[2025-02-24 22:46:26.279]	dev.info	服务器正在退出 ...
+[2025-02-24 22:46:29.172]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:46:29.174]	dev.info	启动端口：8000
+[2025-02-24 22:46:31.645]	dev.info	2025/02/24 22:46:31 Received body: {
+    "role_name": "Admin",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [
+    {"permission_id": 25},
+    {"permission_id": 26},
+    {"permission_id": 27}
+  ]
+}
+
+
+
+[2025-02-24 22:46:31.645]	dev.info	2025/02/24 22:46:31 permission_ids Error reading body: EOF
+
+[2025-02-24 22:46:47.049]	dev.info	2025/02/24 22:46:47 Received body: {
+    "role_name": "Admin1",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [
+    {"permission_id": 25},
+    {"permission_id": 26},
+    {"permission_id": 27}
+  ]
+}
+
+
+
+[2025-02-24 22:46:47.049]	dev.info	2025/02/24 22:46:47 permission_ids Error reading body: EOF
+
+[2025-02-24 22:46:59.887]	dev.info	2025/02/24 22:46:59 Received body: {
+    "role_name": "Admin12",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [25,26,27
+  ]
+}
+
+
+
+[2025-02-24 22:46:59.887]	dev.info	2025/02/24 22:46:59 permission_ids Error reading body: EOF
+
+[2025-02-24 22:48:51.583]	dev.info	关闭服务器 ...
+[2025-02-24 22:48:51.584]	dev.info	服务器正在退出 ...
+[2025-02-24 22:48:54.524]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:48:54.525]	dev.info	启动端口：8000
+[2025-02-24 22:54:27.388]	dev.info	关闭服务器 ...
+[2025-02-24 22:54:27.389]	dev.info	服务器正在退出 ...
+[2025-02-24 22:55:18.965]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:55:18.967]	dev.info	启动端口：8000
+[2025-02-24 22:55:22.485]	dev.info	2025/02/24 22:55:22 Received body: {
+    "role_name": "Admin12",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [25,26,27
+  ]
+}
+
+
+
+[2025-02-24 22:55:22.485]	dev.info	2025/02/24 22:55:22 permission_ids Error reading body: EOF
+
+[2025-02-24 22:55:27.755]	dev.info	2025/02/24 22:55:27 Received body: {
+    "role_name": "Admin122",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [25,26,27
+  ]
+}
+
+
+
+[2025-02-24 22:55:27.755]	dev.info	2025/02/24 22:55:27 permission_ids Error reading body: EOF
+
+[2025-02-24 22:55:50.214]	dev.info	2025/02/24 22:55:50 Received body: {
+    "role_name": "Admin1222",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [25,26,27]
+}
+
+
+
+[2025-02-24 22:55:50.214]	dev.info	2025/02/24 22:55:50 permission_ids Error reading body: EOF
+
+[2025-02-24 22:56:26.335]	dev.info	关闭服务器 ...
+[2025-02-24 22:56:26.336]	dev.info	服务器正在退出 ...
+[2025-02-24 22:56:29.039]	dev.info	MYSQL 数据库连接成功 root:qq080808@tcp(localhost:3306)/mems_db?charset=utf8mb4&parseTime=True&loc=Local 
+[2025-02-24 22:56:29.040]	dev.info	启动端口：8000
+[2025-02-24 22:56:32.423]	dev.info	2025/02/24 22:56:32 Received body: {
+    "role_name": "Admin12222",
+    "is_backstage": 1,
+    "description": "Admin role",
+    "permission_ids": [25,26,27]
+}
+
+
+
+[2025-02-24 22:56:32.424]	dev.info	2025/02/24 22:56:32 permission_ids Error reading body: EOF
+
+[2025-02-24 23:04:56.872]	dev.info	关闭服务器 ...
+[2025-02-24 23:04:56.872]	dev.info	服务器正在退出 ...
