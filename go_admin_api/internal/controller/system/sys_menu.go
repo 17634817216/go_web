@@ -2,7 +2,6 @@ package system
 
 import (
 	"bytes"
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"go_admin_api/internal/model"
 	"go_admin_api/internal/service"
@@ -35,7 +34,7 @@ func (c *PermissionController) Create(ctx *gin.Context) {
 		return
 	}
 
-	fmt.Println(permission)
+	//fmt.Println(permission)
 	if err := c.permissionService.CreatePermission(ctx, &permission); err != nil {
 		utils.AdminFailed(ctx, err.Error())
 

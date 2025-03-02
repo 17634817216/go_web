@@ -21,8 +21,8 @@ func NewRoleController() *RolesServiceController {
 }
 
 func (c *RolesServiceController) Create(ctx *gin.Context) {
-	body, _ := io.ReadAll(ctx.Request.Body)
-	ctx.Request.Body = io.NopCloser(bytes.NewBuffer(body)) // 重新设置请求体
+	//body, _ := io.ReadAll(ctx.Request.Body)
+	//ctx.Request.Body = io.NopCloser(bytes.NewBuffer(body)) // 重新设置请求体
 	var request model.CreateRoleRequest
 	if err := ctx.ShouldBindJSON(&request); err != nil {
 		utils.AdminFailed(ctx, "读取请求体失败")

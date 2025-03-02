@@ -9,6 +9,7 @@ func System(group *gin.RouterGroup) {
 	permissionController := system.NewPermissionController()
 	rolesController := system.NewRoleController()
 	OrganizationController := system.NewOrganizationController()
+	UserServiceController := system.NewUserController()
 	permissions := group.Group("/permissions")
 	{
 		permissions.POST("", permissionController.Create)
@@ -33,5 +34,12 @@ func System(group *gin.RouterGroup) {
 		organs.DELETE("/:org_id", OrganizationController.DeleteOrg)
 		organs.GET("/tree", OrganizationController.GetOrgTree)
 		//permissions.GET("/list", permissionController.GetList)
+	}
+	users := group.Group("/users")
+	{
+		users.GET("", UserServiceController.GetlistPage)
+		users.POST("", UserServiceController.Create)
+		users.PUT(":user_id", UserServiceController.Update)
+		users.DELETE(":user_id", UserServiceController.Delete)
 	}
 }

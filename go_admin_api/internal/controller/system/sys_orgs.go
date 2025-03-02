@@ -13,12 +13,12 @@ import (
 )
 
 type OrganizationController struct {
-	roleService *service.OrganizationService
+	orgService *service.OrganizationService
 }
 
 func NewOrganizationController() *OrganizationController {
 	return &OrganizationController{
-		roleService: &service.OrganizationService{},
+		orgService: &service.OrganizationService{},
 	}
 }
 
@@ -34,7 +34,7 @@ func (c *OrganizationController) Create(ctx *gin.Context) {
 	}
 
 	fmt.Println(organization)
-	if err := c.roleService.CreateOrganization(ctx, &organization); err != nil {
+	if err := c.orgService.CreateOrganization(ctx, &organization); err != nil {
 		utils.AdminFailed(ctx, err.Error())
 
 		return
@@ -57,7 +57,7 @@ func (c *OrganizationController) Update(ctx *gin.Context) {
 		return
 	}
 	fmt.Println(organization)
-	if err := c.roleService.UpdateOrganization(ctx, &organization, orgId); err != nil {
+	if err := c.orgService.UpdateOrganization(ctx, &organization, orgId); err != nil {
 		utils.AdminFailed(ctx, err.Error())
 
 		return
@@ -67,7 +67,7 @@ func (c *OrganizationController) Update(ctx *gin.Context) {
 }
 
 func (c *OrganizationController) GetOrgTree(ctx *gin.Context) {
-	tree, err := c.roleService.GetOrganization(ctx)
+	tree, err := c.orgService.GetOrganization(ctx)
 	if err != nil {
 		utils.AdminFailed(ctx, err.Error())
 
@@ -84,7 +84,7 @@ func (c *OrganizationController) DeleteOrg(ctx *gin.Context) {
 		ctx.JSON(400, gin.H{"error": "无效的 ID"})
 		return
 	}
-	if err := c.roleService.DeleteOrganization(ctx, orgId); err != nil {
+	if err := c.orgService.DeleteOrganization(ctx, orgId); err != nil {
 		utils.AdminFailed(ctx, err.Error())
 
 		return
